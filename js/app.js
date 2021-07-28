@@ -1,3 +1,5 @@
+"use strict"
+
 function calculateCashBack(specialCategoryPurchases, otherCategoryPurchases) {
   const specialCategoryPercent = 0.03;
   const otherCategoryPercent = 0.01;
@@ -14,5 +16,5 @@ function calculateCashBack(specialCategoryPurchases, otherCategoryPurchases) {
   }
 }
 
-const cashback = calculateCashback(5000,10000,);
+const cashback = calculateCashBack(5000,10000,);
 console.log(cashback);
